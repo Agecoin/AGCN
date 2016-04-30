@@ -1,0 +1,9 @@
+Building Agecoin
+
+See doc/readme-qt.rst for instructions on building Agecoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Agecoin.
+
+See doc/build-*.txt for instructions on building agecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Agecoin.

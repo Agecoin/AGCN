@@ -1,0 +1,34 @@
+src/*.exe
+src/agecoin
+src/agecoind
+src/test_agecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.agecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+agecoin-qt
+Agecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+agecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
